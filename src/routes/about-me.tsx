@@ -1,5 +1,6 @@
 export default function AboutMe() {
     return (<>
+    <title>Matthias SAMI - À propos de moi</title>
     <div className="about-me">
         <section className="citation">
         <blockquote>
