@@ -1,5 +1,6 @@
 export default function Contact() {
     return (<>
+    <title>Matthias SAMI - Contactez moi</title>
     <div className="contact">
         <h2>Contact</h2>
         <p>Vous pouvez me contacter via les réseaux sociaux suivants :</p>
