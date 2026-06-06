@@ -1,6 +1,5 @@
 export default function AboutMe() {
     return (<>
-    <title>Matthias SAMI - À propos de moi</title>
     <div className="about-me">
         <section className="citation">
         <blockquote>
@@ -13,7 +12,7 @@ export default function AboutMe() {
         <section className="presentation-about-me">
             <div className="photoEtCV">
                 <img src="/moi.jpg" alt="Photo de moi" className="imageMoi"/>
-                <p><a href="CV Matthias SAMI.pdf" target="_blank">Voir mon CV</a></p>
+                <p><a href="CV Matthias SAMI.pdf" target="_blank" rel="noreferrer">Voir mon CV</a></p>
             </div>
             <div className="presentation-about-me-write">
                 <h2>À propos de moi</h2>
@@ -39,16 +38,6 @@ export default function AboutMe() {
                 </ul>
                 </section>
             </div>
-            {/*
-            <section className="logos">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="Logo React" className="logoReact"/>
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Logo Java" className="logoJava"/>
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Logo Python" className="logoPython"/>
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="Logo HTML" className="logoHTML"/>
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="Logo CSS" className="logoCSS"/>
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="Logo JavaScript" className="logoJS"/>
-            </section>
-            */}
         </section>
     </div>
     </>);
